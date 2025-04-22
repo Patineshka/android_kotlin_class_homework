@@ -9,13 +9,7 @@ package com.example.kotlinclasshomework.kotlinClass
  * Посмотри, что будет выведено в терминал
  */
 fun main() {
-    class Marketolog : Employee(){
-    override fun haveLunch() {
-        super.haveLunch()
-        println("На сегодня хватит работы")
-    }
-
-    override fun goHome() {
-        println("Уже давно дома))")
-    }
+    var marketolog = Marketolog()
+    marketolog.haveLunch()
+    marketolog.goHome()
 }
