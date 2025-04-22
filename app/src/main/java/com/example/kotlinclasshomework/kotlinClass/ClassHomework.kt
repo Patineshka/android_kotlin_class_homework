@@ -9,5 +9,13 @@ package com.example.kotlinclasshomework.kotlinClass
  * Посмотри, что будет выведено в терминал
  */
 fun main() {
-    // TODO здесь нужно создать объект своего класса и вызывать у него методы haveLunch() и goHome()
+    class Marketolog : Employee(){
+    override fun haveLunch() {
+        super.haveLunch()
+        println("На сегодня хватит работы")
+    }
+
+    override fun goHome() {
+        println("Уже давно дома))")
+    }
 }
